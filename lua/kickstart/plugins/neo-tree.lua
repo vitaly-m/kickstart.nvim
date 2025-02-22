@@ -20,6 +20,18 @@ return {
           ['\\'] = 'close_window',
         },
       },
+      filtered_items = {
+        hide_by_name = {
+          "node_modules",
+        },
+        always_show = {
+          ".gitignore",
+          ".github",
+        },
+        always_show_by_patter = {
+          ".env*",
+        },
+      },
     },
   },
 }
